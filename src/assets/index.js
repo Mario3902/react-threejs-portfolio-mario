@@ -67,7 +67,8 @@ import knifethrowimage from "./knifethrow_demonstration.jpg"
 // import pythonanalysis from "./data_analysis.png"
 // import password_generator from "./passwordgenerator.png"
 // import wordsearch from "./wordsearchoutput.jpg"  // unused - commented out in constants
-import financialflowimage from "./FinancialFlowDemonstration.png"
+// import financialflowimage from "./FinancialFlowDemonstration.png"
+import atsscreenerlanding from "./atsscreenerlanding.png"
 // import enterpriseapitester from "./enterpriseapiui.png"
  
 // Use the stable route; dev/prod redirect to /resume/<basename>
@@ -132,7 +133,8 @@ export {
   resume,
   awsdbcert,
   connectwisecert,
-  financialflowimage,
+  // financialflowimage,
+  atsscreenerlanding,
   // enterpriseapitester,
   profilepic,
   docker,

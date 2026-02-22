@@ -49,8 +49,9 @@ import {
   // blender,  // unused - not in Tech.jsx
   connectwisecert,
   awsdbcert,
-  financialflowimage,
+  // financialflowimage,
   // enterpriseapitester,
+  atsscreenerlanding,
   github,
   mongodb,
   microsoft,
@@ -396,6 +397,32 @@ const extracurricular = [
 ];
 
 const projects = [
+  {
+    name: "ATS Screener 🔍",
+    description:
+      "Free, open-source ATS resume screener that simulates 6 real enterprise platforms (Workday, Taleo, iCIMS, Greenhouse, Lever, SuccessFactors) instead of giving you one made-up score. Each platform uses its own weighted scoring model with verified math for keyword matching, format parsing, and experience evaluation. Features AI-powered scoring via Gemini with a rule-based fallback engine, PDF/DOCX parsing entirely in-browser, and per-platform optimization suggestions that reference specific lines in your resume. 500+ users on launch night.",
+    tags: [
+      {
+        name: "SvelteKit 2",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Gemini/NLP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ATS-Simulation",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Rule-Engine",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: atsscreenerlanding,
+    source_code_link: "https://github.com/sunnypatell/ats-screener",
+    live_project_link: "https://ats-screener.vercel.app",
+  },
     {
     name: "Axelot ✍️",
     description:
@@ -500,32 +527,32 @@ const projects = [
     source_code_link: "https://github.com/sunnypatell/sunnify-spotify-downloader",
     live_project_link: "https://sunnify-spotify-downloader.vercel.app/",
   },
-  {
-    name: "FinancialFlow 💸",
-    description:
-      "Comprehensive personal finance management application built with Next.js and Typescript. It empowers users to take control of their financial health through intuitive tracking, insightful analytics, and personalized recommendations.",
-    tags: [
-      {
-        name: "React-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: financialflowimage,
-    source_code_link: "https://github.com/sunnypatell/financialflow",
-    live_project_link: "https://financial-flow.vercel.app/",
-  },
+  // {
+  //   name: "FinancialFlow 💸",
+  //   description:
+  //     "Comprehensive personal finance management application built with Next.js and Typescript. It empowers users to take control of their financial health through intuitive tracking, insightful analytics, and personalized recommendations.",
+  //   tags: [
+  //     {
+  //       name: "React-native",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: financialflowimage,
+  //   source_code_link: "https://github.com/sunnypatell/financialflow",
+  //   live_project_link: "https://financial-flow.vercel.app/",
+  // },
   // {
   //   name: "Enterprise API Tester 🌐",
   //   description:
