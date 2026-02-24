@@ -110,26 +110,27 @@ const services = [
 
 const education = [
   {
-    title: "Honours Computer Science (H. BSc)",
-    company_name: "Ontario Tech University, Oshawa, ON",
+    title: "Técnico de Informática e Sistemas Multimédia",
+    company_name: "Itel",
     icon: otu,
     iconBg: "#fff",
     date: "2022 - Present",
     points: [
-      "President's List - Winter 2025",
-      "Dean's Honours List - Fall 2024",
+      "Programação ",
+      "Designer ",
       // "Courses undertaken: Data Structures and Algorithms, OOP, REST API, Software Design, Python Data Analysis, Discrete Mathematics, Computer Architecture, Operating Systems, PostgreSQL.",
     ],
   },
   {
-    title: "High School",
+    title: "Cfitel",
     company_name: "Richmond Hill High School, ON",
     icon: rhhs,
     iconBg: "#fff",
     date: "2018-2022",
     points: [
-      "Ontario Scholar",
-      "12th Grade: 96%",
+      "Inglês",
+      "UI/UX Design",
+      "programação front-end",
     ],
   },
 ];
@@ -147,7 +148,7 @@ const technologies = [
     name: "C++",
     icon: cplusplus,
   },
-    {
+  {
     name: "PowerShell",
     icon: powershell,
   },
@@ -171,10 +172,10 @@ const technologies = [
   //   name: "HTML 5",
   //   icon: html,
   // },
-    {
+  {
     name: "Tailwind CSS",
     icon: tailwind,
-  }, 
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -260,74 +261,57 @@ const designTools = [
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company_name: "IBM",
+    title: " Desenvolvedor de Software",
+    company_name: "Hakyoff",
     icon: ibm,
     iconBg: "#fff",
     date: "Jan. 2026 - Present",
     points: [
-      "Full-Stack AI Engineering • watsonx Workshop 🤖",
+      "Desenvolvimento de software com React.js e Node.js",
     ],
   },
   {
-    title: "IT Technician",
-    company_name: "Canada's Wonderland",
+    title: "Desenvolvedor de Software",
+    company_name: "Onewa Africa",
     icon: wonderland,
     iconBg: "#fff",
-    date: "Jun. 2023 - Jan. 2026",
+    date: "Jun. 2024 - Jan. 2026",
     points: [
-      "Provisioned Windows PCs with MDT, and deployed scripting via PowerShell and ConnectWise.",
-      "Managed AD accounts to propagate ACLs and unified access across in-house apps, Exchange, and SharePoint.",
-      "Configured Cisco CUCM, Unity, and Finesse for stable call routing and voicemail services.",
-      "Handled switch patching and VLAN/routing via PuTTY & SecureCRT, ensuring stable network performance.",
-      "Deployed Oracle POS/KDS/Debit solutions (EMC, Simphony), tracking updates in Jira & Confluence.",
+      "Desenvolvedor front-end com React.js e Node.js",
+      "Desenvolvedor back-end com Laravel e PHP",
+      "Desenvolvedor mobile com React Native",
+      "Desenvolvedor desktop com Electron",
     ],
   },
   {
-    title: "System Support Specialist",
-    company_name: "Mackenzie Health",
+    title: "Estagiário de TI",
+    company_name: "TIS",
     icon: mackenziehealth,
     iconBg: "#fff",
     date: "Jan. 2023 - Aug. 2023",
     points: [
-      "Overhauled 400+ Surface tablets to bedside iPads, deploying the in-house 'Get Well Soon' app with Intune to hospital systems.",
-      "Developed and refined an admin portal for managing app services, user roles, and subscription expirations.",
-      "Utilized Jamf Pro for MDM, securely deploying iPads/iPhones across clinical departments.",
-      "Implemented Vocera VOIP on iPhones, enabling real-time communication among nurses and ER staff.",
-      "Performed in-room checks, resolved device issues, and collaborated with vendors on bug logs and system updates.",
+      "Desenvolvedor front-end com React.js e Node.js",
+      "Desenvolvedor back-end com Laravel e PHP",
     ],
   },
-  {
-    title: "Tech Sales Associate",
-    company_name: "Staples Canada (Co-op)",
-    icon: staples,
-    iconBg: "#1294C8",
-    date: "Sep. 2020 - Feb. 2021",
-    points: [
-      "Provided specialized support for Windows, Mac, and Linux, performing on-site installations, repairs, and optimizations.",
-      "Streamlined inventory processes by handling SKUs and POs, maintaining a well-organized sales floor.",
-      "Maintained accurate sales and inventory data in IBM AS/400, improving workflows and operational efficiency.",
-      "Resolved complex technical inquiries, delivering tailored solutions that ensured high customer satisfaction.",
-      "Facilitated e-commerce transactions, merging in-store and online channels.",
-    ],
-  },
+
 ];
 
 
 const extracurricular = [
   {
-    title: "IBM RAG and Agentic AI",
+    title: "Hacking",
     type: "Professional Certificate",
     icon: ibm,
     iconBg: "#052FAD",
     date: "Feb 2026",
     points: [
-      "RAG Pipelines, Vector Databases, Agentic AI, LangChain, LangGraph, CrewAI, AutoGen, BeeAI, MCP, Multimodal Generative AI",
+      "Pipelines RAG, Bancos de Dados Vetoriais, IA Agética, LangChain, LangGraph, CrewAI, AutoGen, BeeAI, MCP, IA Generativa Multimodal",
     ],
-    credential: "https://coursera.org/verify/professional-cert/S9ENFFEVMD37",
+    credential: "*",
   },
   {
-    title: "Microsoft Full-Stack Developer",
+    title: "Desenvolvedor Full-Stack Microsoft",
     type: "Professional Certificate",
     icon: microsoft,
     iconBg: "#000000",
@@ -335,18 +319,18 @@ const extracurricular = [
     points: [
       "C#, .NET 10, Blazor WebAssembly, ASP.NET Core Web API, SQL Server, JWT Auth, RBAC, CI/CD, Entity Framework Core",
     ],
-    credential: "https://coursera.org/verify/professional-cert/MSK7DL3J65TJ",
+    credential: "*",
   },
   {
-  title: "GitHub Copilot Intermediate (GH-300)",
-  type: "Professional Certificate",
-  icon: microsoft,
-  iconBg: "#000000",
-  date: "Issued: Oct 13, 2025 - Expires: Oct 13, 2027",
-  points: [
-    "Prompt Engineering, Copilot Chat Architecture, Policy Enforcement, Enterprise AI Integration, Secure Development Workflows"
-  ],
-  credential: "https://learn.microsoft.com/api/credentials/share/en-us/sunnypatell/D07D3774894C605?sharingId=6255C292987551EF",
+    title: "GitHub Copilot Intermediate (GH-300)",
+    type: "Professional Certificate",
+    icon: microsoft,
+    iconBg: "#000000",
+    date: "Issued: Oct 13, 2025 - Expires: Oct 13, 2027",
+    points: [
+      "Engenharia de Prompt, Arquitetura de Chat Copilot, Aplicação de Políticas, Integração de IA Empresarial, Fluxos de Trabalho de Desenvolvimento Seguro"
+    ],
+    credential: "*",
   },
   {
     title: "MongoDB Python Developer Path",
@@ -355,7 +339,7 @@ const extracurricular = [
     iconBg: "#000000",
     date: "Feb 2025",
     points: ["PyMongo, NoSQL Schema Design, Data Aggregation, MongoDB Query Optimization"],
-    credential: "https://learn.mongodb.com/c/tf2DSC7hTcyM3NBZjkLPoA",
+    credential: "*",
   },
   {
     title: "Github Foundations",
@@ -363,11 +347,11 @@ const extracurricular = [
     icon: github,
     iconBg: "#000000",
     date: "Issued: Sep 2024 - Expires: Sep 2027",
-    points: ["Version Control, Git, Actions, CI/CD, Repository Management, SAP Workflow"],
-    credential: "https://www.credly.com/badges/b6f69785-2da8-447e-b02c-3350bf9af803",
+    points: ["Controle de Versão, Git, Actions, CI/CD, Gerenciamento de Repositório, Fluxo de Trabalho SAP"],
+    credential: "*",
   },
   {
-    title: "Certified Enterprise Scripting Architect",
+    title: "Arquiteto de Scripting Empresarial Certificado",
     type: "Automate | Connectwise University",
     icon: connectwise,
     iconBg: "#748C7B",
@@ -382,25 +366,25 @@ const extracurricular = [
     iconBg: "#050C18",
     date: "Mar 2023",
     points: [
-      "Configuration Management, Automation, Google Cloud Platform (GCP), Cloud Servers and VM's, Version Control Tools, Automation.",
+      "Gerenciamento de Configuração, Automação, Google Cloud Platform (GCP), Servidores em Nuvem e Máquinas Virtuais, Ferramentas de Controle de Versão, Automação.",
     ],
-    credential: "https://www.coursera.org/account/accomplishments/specialization/certificate/82SZFUWF4B3T",
+    credential: "*",
   },
   {
-    title: "WHMIS (Worker Health and Safety)",
+    title: "WHMIS (Saúde e Segurança no Trabalho)",
     type: "Government Workforce Requirement",
     icon: whmis,
     iconBg: "#CCCFD8",
     date: "Sep 2020",
-    points: ["Hazard Awareness, Legal Compliance, Personal Protection, Accident Prevention"],
+    points: ["Conscientização sobre Perigos, Conformidade Legal, Proteção Pessoal, Prevenção de Acidentes"],
   },
 ];
 
 const projects = [
   {
-    name: "ATS Screener 🔍",
+    name: "HakyOff 🔍",
     description:
-      "Free, open-source ATS resume screener that simulates 6 real enterprise platforms (Workday, Taleo, iCIMS, Greenhouse, Lever, SuccessFactors) instead of giving you one made-up score. Each platform uses its own weighted scoring model with verified math for keyword matching, format parsing, and experience evaluation. Features AI-powered scoring via Gemini with a rule-based fallback engine, PDF/DOCX parsing entirely in-browser, and per-platform optimization suggestions that reference specific lines in your resume. 500+ users on launch night.",
+      "A HakyOff é uma plataforma dedicada à treinamentos em Segurança da Informação, com foco principal em Segurança Ofensiva. Oferecemos uma variedade de treinamentos especializados, laboratórios práticos envolventes e uma comunidade ativa de profissionais e entusiastas da segurança cibernética.",
     tags: [
       {
         name: "SvelteKit 2",
@@ -420,13 +404,13 @@ const projects = [
       },
     ],
     image: atsscreenerlanding,
-    source_code_link: "https://github.com/sunnypatell/ats-screener",
-    live_project_link: "https://ats-screener.vercel.app",
+    source_code_link: "https://github.com/Mario3902",
+    live_project_link: "https://www.hakyoff.com/",
   },
-    {
-    name: "Axelot ✍️",
+  {
+    name: "Onewa Africa",
     description:
-      "Axelot is a real-time collaborative writing and knowledge workspace built with Next.js 16, TypeScript, Firebase, TipTap 3, and Yjs. It supports multi-user editing with presence cursors, CRDT-based conflict-free sync over WebRTC, and AI-assisted editing via OpenRouter-backed Next.js API routes. Features secure auth with NextAuth v5 (Google/GitHub OAuth, email/password with bcrypt), Firestore-backed storage with Firebase custom tokens, a Vercel cron-powered trending algorithm, and production deployment via multi-stage Docker pipeline.",
+      "ONEWA, uma Organização Não Governamental sem fins lucrativos, movida pelo propósito de transformar vidas e comunidades por meio da educação, da inclusão social e da solidariedade ativa.",
     tags: [
       {
         name: "Next.js 16",
@@ -446,20 +430,20 @@ const projects = [
       },
     ],
     image: axelotlanding,
-    source_code_link: "https://github.com/royce-mathew/axelot",
-    live_project_link: "https://www.axelot.io",
+    source_code_link: "https://github.com/Mario3902",
+    live_project_link: "https://onewaafrica.com",
   },
   {
-    name: "Netdash (Networking Toolbox) 🌐",
+    name: "Fubex",
     description:
-      "Netdash is a cross-platform Electron desktop app (macOS, Windows, Linux) with Homebrew distribution, featuring Firebase Auth with Google OAuth and real-time Firestore sync. It includes 15+ networking tools for subnetting, VLSM, IP conflict detection, and multi-vendor configuration generation. Built with RTT measurement via Performance API, TCP port scanning, DNS-over-HTTPS with TTL-aware caching, and RFC-compliant IPv4/IPv6 algorithms with WCAG2.2 accessibility compliance.",
+      "Uma oportunidade única para jovens angolanos alcançarem seus sonhos académicos. Bolsas nacionais e internacionais com cobertura total ou comparticipada até 85%.",
     tags: [
       {
-        name: "Electron",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "Firebase",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
@@ -472,61 +456,10 @@ const projects = [
       },
     ],
     image: netdashlanding,
-    source_code_link: "https://github.com/sunnypatell/netdash-toolkit/",
-    live_project_link: "https://netdash-toolkit.vercel.app/",
+    source_code_link: "https://github.com/Mario3902",
+    live_project_link: "https://bolsadeestudosemanuelxirimbimbi.com/",
   },
-  {
-    name: "SecureBank 🏦",
-    description:
-      "SecureBank is a deliberately vulnerable banking simulation built for Capture The Flag (CTF) training, focused on SQL injection and privilege escalation. It features exploit paths including raw query interpolation, single/double URL encoding, and a hidden admin portal to teach secure coding by example. Core features include transaction search/filter, a feedback system, and an admin dashboard with live DB console and security logs. Backed by a normalized SQLite schema with session handling via cookie-signature, and dockerized with structured challenge documentation.",
-    tags: [
-      {
-        name: "CTF",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQLi/XSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "SQLite",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Docker",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: securebankdashboard,
-    source_code_link: "https://github.com/sunnypatell/securebank-ctf",
-    live_project_link: "https://github.com/sunnypatell/securebank-ctf",
-  },
-  {
-    name: "Sunnify (Spotify Downloader) 🎵",
-    description:
-      "Sunnify is a Spotify downloader that reverse-engineers embed pages to extract track metadata by parsing protected JSON states without authentication. It features a cross-platform PyQt5 desktop client (macOS, Windows, Linux) with thread-safe UI updates and supports playlists with 1000+ tracks via Spotify's internal spclient API. Includes retry logic with exponential backoff for rate limiting, cross-platform FFmpeg detection, 43 pytest unit tests with GitHub Actions CI/CD, and ships as a Homebrew Cask.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "PyQt5",
-        color: "green-text-gradient",
-      },
-      {
-        name: "yt-dlp",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Homebrew",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: sunnifyimage,
-    source_code_link: "https://github.com/sunnypatell/sunnify-spotify-downloader",
-    live_project_link: "https://sunnify-spotify-downloader.vercel.app/",
-  },
+
   // {
   //   name: "FinancialFlow 💸",
   //   description:
@@ -579,32 +512,7 @@ const projects = [
   //   source_code_link: "https://github.com/sunnypatell/enterprise-api-request-tester",
   //   live_project_link: "https://enterprise-api-request-tester.vercel.app/",
   // },
-  {
-    name: "KnifeThrow 🎯",
-    description:
-      "KnifeThrow is a Java Swing-based 2D mini-game, packed by maven with over 5000 lines of code. It includes a menu, game-over screens, sound effects, and custom sprites. Players unlock different knives with varied abilities in a dedicated knife shop. The game features improved collision systems, animations, and particle effects for an immersive experience.",
-    tags: [
-      {
-        name: "java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "swing",
-        color: "green-text-gradient",
-      },
-      {
-        name: "maven",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "arcadegame",
-        color: "green-text-gradient",
-      },
-    ],
-    image: knifethrowimage,
-    source_code_link: "https://github.com/sunnypatell/KnifeThrow",
-    live_project_link: "https://github.com/sunnypatell/KnifeThrow",
-  },
+
   // {
   //   name: "COVID-19 GTA Cases Data Analysis 🧪",
   //   description:

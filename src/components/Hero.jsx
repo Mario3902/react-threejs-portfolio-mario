@@ -59,8 +59,8 @@ const TypewriterText = ({ texts }) => {
 
 const WavingHand = () => {
   return (
-    <img 
-      src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png" 
+    <img
+      src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/1f44b.png"
       alt="Waving Hand"
       className="wave-emoji"
       style={{ display: 'inline-block', marginLeft: '10px', width: '50px', height: '50px' }}
@@ -71,9 +71,9 @@ const WavingHand = () => {
 const Hero = () => {
   const typedItems = [
     "Software Developer",
-    "Systems Administrator",
-    "Computer Enthusiast",
-    "Team Leader"
+    "Designer gráfico",
+    "Entusiasta de computadores",
+    "Líder de equipe"
   ];
 
   return (
@@ -104,12 +104,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Sunny</span> <WavingHand />
+            Oi, Eu sou o <span className="text-[#915EFF]">Mário Fernandes</span> <WavingHand />
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a <TypewriterText texts={typedItems} />
+            Eu sou<TypewriterText texts={typedItems} />
             <br />
-            <b>Welcome to my portfolio, please view on desktop for an interactive experience!</b>
+            <b>Bem-vindo(a) ao meu portfólio! Para uma experiência interativa, acesse-o pelo computador!</b>
           </p>
         </div>
       </div>

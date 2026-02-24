@@ -60,16 +60,33 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  const handleCreated = ({ gl }) => {
+    const canvas = gl.domElement;
+
+    const handleContextLost = (e) => {
+      e.preventDefault();
+      console.warn("WebGL context lost – waiting to restore...");
+    };
+
+    const handleContextRestored = () => {
+      console.info("WebGL context restored.");
+    };
+
+    canvas.addEventListener("webglcontextlost", handleContextLost);
+    canvas.addEventListener("webglcontextrestored", handleContextRestored);
+  };
+
   return (
     <Canvas
-      frameloop='always'
+      frameloop='demand'
       shadows
       dpr={[1, 2]}
       camera={isMobile ? 
         { position: [0, 0, 20], fov: 50 } : 
         { position: [20, 3, 5], fov: 25 }
       }
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ preserveDrawingBuffer: true, powerPreference: 'high-performance' }}
+      onCreated={handleCreated}
     >
       <Suspense fallback={<CanvasLoader />}>
         {!isMobile && (
@@ -78,6 +95,7 @@ const ComputersCanvas = () => {
             maxPolarAngle={Math.PI / 2}
             minPolarAngle={Math.PI / 2}
             autoRotate={true}
+            makeDefault
           />
         )}
         <Computers isMobile={isMobile} />

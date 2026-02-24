@@ -49,7 +49,7 @@ import cinema4d from "./tech/cinema4d.png"
 
 import otu from "./company/otu.png"
 import rhhs from "./company/rhhs.jpg"
-import wonderland from "./company/wonderland.jpg"
+import wonderland from "./company/onewa.png"
 import mackenziehealth from "./company/mackenziehealth.png"
 import privcurity from "./company/privcurity.jpg"
 import staples from "./company/staples.png"
@@ -57,10 +57,10 @@ import google from "./company/google.png"
 import whmis from "./company/whmis.png"
 import aws from "./tech/aws.png";
 import microsoft from "./company/microsoft.png";
-import ibm from "./company/ibm.svg";
+import ibm from "./company/HACK.png";
 
-import axelotlanding from "./axelotlanding.png"
-import netdashlanding from "./netdashlanding.png"
+import axelotlanding from "./onewa12.png"
+import netdashlanding from "./fubex.png"
 import securebankdashboard from "./securebankdash.jpg"
 import sunnifyimage from "./demonstration 2.jpg"
 import knifethrowimage from "./knifethrow_demonstration.jpg"
@@ -68,9 +68,9 @@ import knifethrowimage from "./knifethrow_demonstration.jpg"
 // import password_generator from "./passwordgenerator.png"
 // import wordsearch from "./wordsearchoutput.jpg"  // unused - commented out in constants
 // import financialflowimage from "./FinancialFlowDemonstration.png"
-import atsscreenerlanding from "./atsscreenerlanding.png"
+import atsscreenerlanding from "./hackoo.png"
 // import enterpriseapitester from "./enterpriseapiui.png"
- 
+
 // Use the stable route; dev/prod redirect to /resume/<basename>
 const resume = "/resume";
 import awsdbcert from "./AWS Database Specialty Certified - Sunny Jayendra Patel.jpg"

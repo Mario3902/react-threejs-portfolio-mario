@@ -68,7 +68,7 @@ const Contact = () => {
     e.preventDefault()
 
     if (!form.name || !form.email || !form.message) {
-      toast.error("Please fill all fields before submitting. ⚠️", {
+      toast.error("Preencha todos os campos antes de enviar. ⚠️", {
         duration: 3000,
         position: "bottom-right",
       })
@@ -76,7 +76,7 @@ const Contact = () => {
     }
 
     if (!captchaToken) {
-      toast("Hold up! Gotta make sure you're not a spam bot, checkmark the CAPTCHA! 🧠🤖", {
+      toast("Espere aí! Precisamos ter certeza de que você não é um robô de spam, marque a caixa de seleção do CAPTCHA! 🧠🤖", {
         icon: "🛡️",
         duration: 3500,
         position: "bottom-right",
@@ -104,7 +104,7 @@ const Contact = () => {
           setLoading(false)
           setSuccess(true)
           setForm({ name: "", email: "", message: "" })
-          toast.success("Message sent successfully!", {
+          toast.success("Mensagem envada", {
             duration: 3000,
             position: "bottom-right",
           })
@@ -150,11 +150,11 @@ const Contact = () => {
         <div className="flex justify-between items-center mb-4">
           <p className={styles.sectionSubText}>Get in touch</p>
           <a
-            href="tel:+14372161611"
+            href="tel:+244957277055"
             className="text-purple-400 hover:text-purple-300 transition-all duration-300 flex items-center gap-2 hover:gap-3 group"
           >
             <FontAwesomeIcon icon={faPhone} className="group-hover:rotate-12 transition-transform duration-300" />
-            <span className="font-medium">(437) 216-1611</span>
+            <span className="font-medium">+244 957277055</span>
           </a>
         </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -165,7 +165,7 @@ const Contact = () => {
               <label className="flex flex-col">
                 <span className="text-white font-medium mb-4 flex items-center gap-2">
                   <FontAwesomeIcon icon={faUser} className="text-purple-400" />
-                  Name
+                  Nome
                 </span>
                 <input
                   type="text"
@@ -204,7 +204,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="Hey Sunny, love the website! I'd like to chat about some opportunities you might like! 🎉"
+              placeholder="Olá Mário, adorei o site! Gostaria de conversar sobre algumas oportunidades que podem te interessar! 🎉"
               className="bg-black-100/50 backdrop-blur-sm py-4 px-6 placeholder:text-secondary text-white rounded-xl outline-none border-2 border-white/20 font-medium transition-all duration-300 focus:ring-2 focus:ring-purple-500/50 focus:border-purple-500 focus:bg-black-100/70 hover:border-white/30 resize-none"
             />
           </label>
@@ -231,7 +231,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faSpinner} spin className="text-xl" />
             ) : success ? (
               <>
-                <span>Sent Successfully</span>
+                <span>Mensagem Enviada</span>
                 <FontAwesomeIcon
                   icon={faPaperPlane}
                   className="group-hover:translate-x-1 transition-transform duration-300"
@@ -239,7 +239,7 @@ const Contact = () => {
               </>
             ) : (
               <>
-                <span>Send Message</span>
+                <span>Enviar Mensagem</span>
                 <FontAwesomeIcon
                   icon={faPaperPlane}
                   className="group-hover:translate-x-1 transition-transform duration-300"

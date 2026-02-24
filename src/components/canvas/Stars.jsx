@@ -47,9 +47,29 @@ const StarsCanvas = () => {
     }
   }, [])
 
+  const handleCreated = ({ gl }) => {
+    const canvas = gl.domElement;
+
+    const handleContextLost = (e) => {
+      e.preventDefault();
+      console.warn("Stars: WebGL context lost – waiting to restore...");
+    };
+
+    const handleContextRestored = () => {
+      console.info("Stars: WebGL context restored.");
+    };
+
+    canvas.addEventListener("webglcontextlost", handleContextLost);
+    canvas.addEventListener("webglcontextrestored", handleContextRestored);
+  };
+
   return (
     <div className="w-full h-auto absolute inset-0 z-[-1]">
-      <Canvas camera={{ position: [0, 0, 1] }}>
+      <Canvas
+        camera={{ position: [0, 0, 1] }}
+        gl={{ powerPreference: 'high-performance' }}
+        onCreated={handleCreated}
+      >
         <Stars />
         <Preload all />
       </Canvas>

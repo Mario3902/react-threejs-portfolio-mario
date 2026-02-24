@@ -57,7 +57,7 @@ const About = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
       >
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>Introdução</p>
       </motion.div>
 
       <motion.div
@@ -68,7 +68,7 @@ const About = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
       >
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Visão Geral.</h2>
       </motion.div>
 
       <div className="mt-10 flex flex-col md:flex-row items-center md:items-start gap-10">
@@ -94,16 +94,16 @@ const About = () => {
               className="px-6 py-3 font-semibold text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-md shadow-[0_5px_0_0_rgba(0,0,0,0.6)] transition-all duration-100 ease-in-out hover:shadow-[0_3px_0_0_rgba(0,0,0,0.6)] hover:translate-y-[2px] active:translate-y-1 active:shadow-none select-none"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open(resume, "_blank")}
+              onClick={() => window.open("https://www.instagram.com/mario_fernandes07?igsh=MWplMTI0anczcHRveQ==", "_blank")}
             >
-              Resume
+              Instagram
             </motion.button>
 
             <motion.button
               className="px-6 py-3 font-semibold text-white bg-gradient-to-r from-blue-400 to-blue-600 rounded-md shadow-[0_5px_0_0_rgba(0,0,0,0.6)] transition-all duration-100 ease-in-out hover:shadow-[0_3px_0_0_rgba(0,0,0,0.6)] hover:translate-y-[2px] active:translate-y-1 active:shadow-none select-none"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open("https://www.linkedin.com/in/sunny-patel-30b460204/", "_blank")}
+              onClick={() => window.open("https://www.linkedin.com/", "_blank")}
             >
               LinkedIn
             </motion.button>
@@ -112,7 +112,7 @@ const About = () => {
               className="px-6 py-3 font-semibold text-white bg-gradient-to-r from-gray-600 to-gray-800 rounded-md shadow-[0_5px_0_0_rgba(0,0,0,0.6)] transition-all duration-100 ease-in-out hover:shadow-[0_3px_0_0_rgba(0,0,0,0.6)] hover:translate-y-[2px] active:translate-y-1 active:shadow-none select-none"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open("https://github.com/sunnypatell", "_blank")}
+              onClick={() => window.open("https://github.com/Mario3902", "_blank")}
             >
               GitHub
             </motion.button>
@@ -125,35 +125,32 @@ const About = () => {
             className="mt-4 text-secondary text-[17px] max-w-3xl space-y-6 list-none"
           >
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.1, 0.75)}>
-              <span className="mr-4 text-2xl flex-shrink-0">👨‍💻</span>
+              <span className="mr-4 text-2xl flex-shrink-0">👨💻</span>
               <span>
-                I&apos;m a Software Engineer with over 4 years of experience in software development and cloud
-                technologies.
+                Eu sou um Software Engineer com mais de 3 anos de experiência em desenvolvimento de software e tecnologias de nuvem.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.2, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">🎓</span>
               <span>
-                Currently working toward my Honours Bachelor of Science in Computer Science at Ontario Tech University,
-                I&apos;m all about building reliable, scalable software that makes a difference.
+                Estou atualmente Estudando no Instituto de Telecomunicações (Itel).
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.3, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">🛠</span>
               <span>
-                From full-stack development to cloud-based solutions, I&apos;ve led enterprise-level projects that
-                streamline operations and deliver real impact.
+                Estou sempre em busca de construir software confiável e escalável que faça uma diferença.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.4, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">🔧</span>
               <span>
-                I enjoy automating workflows, optimizing systems, and turning complex challenges into real results. 📈
+                Gosto de automatizar fluxos de trabalho, otimizar sistemas e transformar desafios complexos em resultados reais.
               </span>
             </motion.li>
             <motion.li className="flex items-start" variants={fadeIn("up", "spring", 0.5, 0.75)}>
               <span className="mr-4 text-2xl flex-shrink-0">💡</span>
-              <span>I&apos;m always curious and constantly learning.</span>
+              <span>Sempre curioso e aprendendo constantemente.</span>
             </motion.li>
           </motion.ul>
         </motion.div>

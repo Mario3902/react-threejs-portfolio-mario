@@ -74,7 +74,7 @@ const Education = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
       >
-        <p className={`${styles.sectionSubText} text-center`}>What I have Studied so far</p>
+        <p className={`${styles.sectionSubText} text-center`}>O que eu estudei até agora</p>
       </motion.div>
 
       <motion.div
@@ -85,7 +85,7 @@ const Education = () => {
           visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
         }}
       >
-        <h2 className={`${styles.sectionHeadText} text-center`}>Education.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>EDUCAÇÃO</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
